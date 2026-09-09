@@ -1,0 +1,17 @@
+.front-end {
+  margin-top: 30px;
+  padding-top: var(--size-xl);
+  padding-bottom: var(--size-xxl);
+}
+.front-end__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+}
+.graphic-design__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 20px;
+  padding-top: var(--size-xl);
+  padding-bottom: var(--size-xxl);
+}

@@ -1,0 +1,17 @@
+.work {
+  padding-top: var(--size-xxl);
+  color: var(--main-t);
+  padding-bottom: var(--size-xxl);
+}
+.work__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: var(--size-l);
+}
+.work__btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: var(--size-l);
+}
